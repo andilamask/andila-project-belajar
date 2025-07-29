@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(226, 239, 240);
+}
+
+.center {
+  display: flex;
+  flex-direction: column; /* Susun vertikal */
+  justify-content: center; /* Vertikal */
+  align-items: center;     /* Horizontal */
+  height: 100%;           /* Penuh tinggi layar */
+  text-align: center;
+  font-family: Arial, sans-serif;
+
+}
+
+#todo {
+    width: 350px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.226);
+    border: none;
+    font-size: 12px;
+}
+
+h1 {
+    width: 50%;;
+    padding: 0;
+    font-size: 30px;
+    color: rgb(48, 68, 87);
+    margin-bottom: 10px;
+    background: #9ed3da;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.226);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#table2 {
+    display: inline;
+    width: 50%;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-right: 10px;
+    margin-top: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.226);
+    border-radius: 8px;
+    
+}
+

@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1366d2 50%, #cdcaa9 100%);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.pokedex {
+  max-width: 300px;
+  background-color: rgb(237, 233, 213);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: #cdcaa9 0px 0px 10px 0px;
+  margin: auto;
+}
+
+.pokedexText {
+  margin: 10px;
+  color: rgb(218, 184, 49);
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 4px #878080;
+  font-weight: bolder;
+  -webkit-text-stroke: 2px #0e57b7;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: #cdcaa9 0px 0px 10px 0px;
+}
+
+#pokemonImage {
+  border-radius: 10px;
+  border: none;
+  box-shadow: #c7cace 0px 0px 5px 0px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pokemonName {
+  font-size: 15px;
+  font-weight: bold;
+  color: #32343f;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+input {
+  background-color: rgb(255, 255, 255);
+  font-size: 15px;
+  color: #000000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #286fcc;
+  color: rgb(242, 242, 242);
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #0a5bb8;
+}

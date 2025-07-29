@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="todo-style.css">
+
+</head>
+
+<body>
+    <div class="center">
+        <form name="TodoForm">
+            <table id="table1">
+                <tbody>
+                    <tr>
+                        <td style="font-weight: bold;"><label for="todo">Todo:</label></td>
+                        <td>
+                            <input type="text" id="todo" name="todo" placeholder="Your to do list...." required>
+                            <input type="submit" value="Add" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+
+        <h1>To do list 📝</h1>
+
+        <table id="table2">
+            <thead>
+                <tr>
+                    <th>Filter:</th>
+                    <th><input type="text" name="search" id="search" placeholder="Your list...."></th>
+                </tr>
+            </thead>
+            <tbody id="todolistBody">
+                <tr>
+                    <td><input type="button" value="Done"></td>
+                    <td>Todo Description</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="todo-java.js"></script>
+
+</body>
+
+
+</html>
